@@ -1,12 +1,4 @@
-/*
- * json.c — минимальный JSON-парсер на C (один файл).
- *
- * Сборка:  cc -std=c11 -O2 -Wall -Wextra json.c -o json
- * Запуск:  ./json file.json
- *          ./json           (читает со stdin)
- *
- * MIT License. См. LICENSE.
- */
+
 #include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
